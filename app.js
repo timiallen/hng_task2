@@ -1,4 +1,6 @@
 const express = require("express");
+const app = express();
+
 const Config = require("./utils/config");
 const { initMongo } = require("./config/db");
 
@@ -16,8 +18,6 @@ app.use(
 );
 
 app.use("/", route);
-
-const app = express();
 
 app.listen(Config.Port, () => {
   console.log(`api running on ${Config.Port}`);
